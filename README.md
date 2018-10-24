@@ -19,3 +19,7 @@ Le client vous attend sur les idées de services pour cette plateforme.
 Il attend également de vous que vous sachiez agencer tout cela sous la forme d'un outil qui restera simple d'utilisation et complet.   
 Tout au long de la journée, vous avez le droit de poser des questions à votre client (l'équipe pédagogique). 
 Tous ces échanges se feront "publiquement" (comme dans un appel d'offre, les questions et réponses sont accessibles à l'ensemble des candidats).
+
+### Bonus
+A combien estimez-vous le temps nécessaire pour réaliser cet outil?   
+Fournissez un kanban balisant la réalisation future de cet outil.
