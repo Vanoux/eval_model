@@ -1,4 +1,4 @@
-# eval_model
+# Evaluation 3 : Appel d'offres Alumnis
 Imaginez le site qui permettra d'accueillir les futurs alumnis Simplon.   
 Sur cette plateforme, ils pourront échanger, améliorer leurs compétences, demander de l'aide voire échanger des opportunités de stage ou d'insertion professionnelle.   
 Considérez ceci comme un appel d'offres : le client attend de vous que vous conceviez l'application et argumentiez autour des solutions techniques que vous allez adopter. 
