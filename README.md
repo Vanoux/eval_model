@@ -1,3 +1,7 @@
+## Wireframes : 
+## Dossier de conception technique : https://github.com/Vanoux/eval_model/wiki/Dossier-Conception-technique-du-site
+## Descriptif cas utilisation : https://github.com/Vanoux/eval_model/wiki/Alumnis-Simplon---Descriptif
+
 # Evaluation 3 : Appel d'offres Alumnis
 Imaginez le site qui permettra d'accueillir les futurs alumnis Simplon.   
 Sur cette plateforme, ils pourront échanger, améliorer leurs compétences, demander de l'aide voire échanger des opportunités de stage ou d'insertion professionnelle.   
