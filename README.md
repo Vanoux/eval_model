@@ -2,6 +2,27 @@
 ## Dossier de conception technique : https://github.com/Vanoux/eval_model/wiki/Dossier-Conception-technique-du-site
 ## Descriptif cas utilisation : https://github.com/Vanoux/eval_model/wiki/Alumnis-Simplon---Descriptif
 
+
+# alumnis2 le retour de l'evaluation 3
+La suite tant attendue du projet Alumnis
+
+## Consignes
+En vous basant sur la modélisation précédemment réalisée, voici venu le temps de prouver au client que vous êtes capable de faire ce que vous lui avez promis.
+Créez donc un MVP (Minimum Viable Product) de la plateforme présentée, envoyez-le-lui et croisez les doigts.
+Respectez votre dossier de conception technique.
+Montrez au client que vous savez créer/gérer une base de données. Sinon, il ne vous prendra pas au sérieux.
+
+# Il est interdit d'utiliser un CMS
+
+## Rendu
+Avant le 07/11 à minuit.
+### Repo github + version en ligne du projet.
+Attention, le client ne regardera même pas s'il n'y a pas de version en ligne.
+### Kanban
+Pour montrer que vous savez vous organiser. 
+
+*******************************************
+
 # Evaluation 3 : Appel d'offres Alumnis
 Imaginez le site qui permettra d'accueillir les futurs alumnis Simplon.   
 Sur cette plateforme, ils pourront échanger, améliorer leurs compétences, demander de l'aide voire échanger des opportunités de stage ou d'insertion professionnelle.   

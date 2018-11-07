@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Bienvenue à toi Alumnis!{% endblock %}</title>
+
+        {% block stylesheets %}<link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+        {% endblock %}
+    </head>
+
+    <body>
+      
+            <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                <a class="navbar-brand font-weight-bold" href="{{ path('home')}}"><button type="button" class="btn btn-primary btn-lg">Alumnis Simplon</button></a>
+                    
+                    
+                    <div class="">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ml-5">
+                                <!--Fontion path() permet de retrouver l'url en fonction du nom d'une Route-->
+                                <a class="nav-link" href="{{ path('alumnis')}}"><button type="button" class="btn btn-outline-primary" >Aide moi !</button></a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <!--Fontion path() permet de retrouver l'url en fonction du nom d'une Route-->
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-primary">Groupes</button></a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <!--Fontion path() permet de retrouver l'url en fonction du nom d'une Route-->
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-primary">Insertion</button></a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <!--Fontion path() permet de retrouver l'url en fonction du nom d'une Route-->
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-primary">Evènements</button></a>
+                            </li>
+                            <li class="nav-item ml-5">
+                                    <!--Fontion path() permet de retrouver l'url en fonction du nom d'une Route-->
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-outline-primary">S'enregistrer / Se connecter</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+    <div class="container">
+        {% block body %}{% endblock %}
+    </div>
+
+    <footer class="navbar fixed-bottom bg-danger">
+        <div class="container-fluid">
+            <div class="">
+                <div class="col-md-12">
+                    Imaginez le site qui permettra d'accueillir les futurs alumnis Simplon.<br>
+                    Sur cette plateforme, ils pourront échanger, améliorer leurs compétences, demander de l'aide voire échanger des opportunités de stage ou d'insertion professionnelle.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
