@@ -1,4 +1,5 @@
 ## Kanban alumnis2 : https://github.com/Vanoux/eval_model/projects/1
+## Version en ligne : https://alumnisimplon.herokuapp.com/
 
 ## Wireframes :  https://marvelapp.com/9gja16h
 ## Dossier de conception technique : https://github.com/Vanoux/eval_model/wiki/Dossier-Conception-technique-du-site
