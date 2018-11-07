@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<articles>
+    <h2 class="text-center m-5">{{ post.titre }}</h2>
+    <div class="metadata">
+        <h4 class="pb-2">Ecrit le {{ post.date | date('d/m/Y')}} à {{ post.date | date('H:i')}} par MachinMachin</h4>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel voluptate aliquam eligendi nisi??</p>
+        <hr>
+        <p>{{ post.contenu }}</p>
+    </div>
+</articles>
+
+<form class="form-inline">
+        <div class="form-group m-2">
+          <label for="tonNom">Ton nom</label>
+          <input type="text" class="form-control" id="exampleInput" placeholder="ton nom">
+        </div>
+        <div class="form-group mx-sm-3 m-2">
+          <label for="tonAide">Ton Aide</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+                <button type="submit" class="btn btn-danger mb-2">Envoyer</button>
+        </div>
+        
+      </form>
+
+{% endblock %}
