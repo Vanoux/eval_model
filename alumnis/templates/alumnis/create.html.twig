@@ -1,0 +1,19 @@
+{% extends "base.html.twig" %}
+
+{% form_theme formPost 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+
+<h1>Création d'un post</h1>
+
+{{ form_start(formPost) }}
+
+{{ form_row(formPost.titre, {'attr': {'placeholder': "Titre du post"}}) }}
+{{ form_row(formPost.contenu, {'attr': {'placeholder': "Contenu du post"}}) }}
+{{ form_row(formPost.date) }}
+
+<button type="submit" class="btn btn-success">Ajouter le post</button>
+
+{{ form_end(formPost) }}
+
+{% endblock %}
